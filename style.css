@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.main-box {
+    border: 2px solid black;
+}
+.btn {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 3px 3px rgb(22, 22, 22);
+    cursor: pointer;
+    padding: .1rem;
+}
+.sub-box {
+    padding: 1rem;
+
+}
+.sub-boxx2 {
+    padding: .8rem;
+
+}
+.main-box {
+    margin-top: 1rem;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    padding: 0 3rem;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+.middle {
+    justify-content: center;
+    display: flex;
+}
+.left {
+    justify-content: flex-start;
+    border: 3px solid black;
+    width: 10rem;
+    height: 10rem;
+}
+.hi {
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    display: inline-block;
+    padding-left: .5rem;
+
+}
+.big22 {
+    width: 10rem;
+}
